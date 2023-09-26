@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+        "jsx": "react",
+		"target": "ES2020",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+		"module": "NodeNext",
+		"outDir": "out",
+		"sourceMap": true,
+		"rootDir": "src",
+        "resolveJsonModule": true,
+		"strict": true, /* enable all strict type-checking options */
+		"noImplicitReturns": true /* Report error when not all code paths in function return a value. */
+	}
+}
