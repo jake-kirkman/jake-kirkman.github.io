@@ -1,0 +1,92 @@
+/**
+ * This is Syntactically Awesome Style Sheets - otherwise known as sass
+ * It's essentially a pre-processor for CSS - read more here: https://sass-lang.com/documentation/
+ *
+ * The main reason we're here though, is because we want to override Bootstrap - see here: https://getbootstrap.com/docs/5.3/customize/sass/
+ *
+ * To process this file into CSS, firstly make sure you have installed sass CLI (One time only): 
+ * `npm install -g sass`
+ * and bootstrap has been installed via npm
+ * `npm install`
+ * 
+ * Then simply run the following command to convert to CSS whilst you have a terminal open in the project root
+ * `sass ./src/styles/bootstrap.custom.scss ./src/styles/bootstrap.custom.css`
+ *
+ * If you want any changes made to the scss file to automatically convert, simply add the `--watch` flag to the above command
+ * 
+ */
+
+/*=========================================================
+        Begin Overrides
+            - Template obtained from bootstrap link above
+=========================================================*/
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  10: 10px,
+  20: 20px,
+  30: 30px,
+  40: 40px,
+  60: 60px,
+  80: 80px,
+  100: 100px,
+  200: 200px
+);
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// 7. Override Utilities
+$utilities: map-merge(
+    $utilities,
+    (
+        "width": map-merge(
+            map-get($utilities, "width"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "width"), "values"),
+                    (fit-content: fit-content),
+                ),
+                responsive: true
+            )
+        ),
+        "position": map-merge(
+            map-get($utilities, "position"),
+            (
+                responsive: true
+            )
+        )
+    )
+);
+
+// 8. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// 9. Add additional custom code here
