@@ -1,0 +1,7 @@
+.globalNavBar-nav {
+    
+}
+
+.globalNavBar-nav > div:not(:last-child) {
+    border-bottom: solid var(--bs-gray-400) 1px;
+}
