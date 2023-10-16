@@ -2,13 +2,13 @@ import './styles/bootstrap.custom.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import PAGE_DEFINITIONS from './constants/pageConstants';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
     <React.StrictMode>
         <div className="w-100 bg-white min-vh-100">
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     {
                         PAGE_DEFINITIONS.map(
@@ -22,7 +22,7 @@ root.render(
                         )
                     }
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     </React.StrictMode>
 );
