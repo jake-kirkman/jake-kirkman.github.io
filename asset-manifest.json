@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04b87cc4.css",
-    "main.js": "/static/js/main.bff19f25.js",
+    "main.js": "/static/js/main.e0a38199.js",
     "static/media/jake.jpg": "/static/media/jake.ce32d71729b1b96ec122.jpg",
     "static/media/activities2.md": "/static/media/activities2.0271e6679c1b3c3d4470.md",
     "static/media/transactionApprovals.md": "/static/media/transactionApprovals.3f0a4006067e456a504b.md",
@@ -14,10 +14,10 @@
     "static/media/apexPMDCustomRules.md": "/static/media/apexPMDCustomRules.4bf59a097f47b8ab5376.md",
     "static/media/wrikeVscodeExtension.md": "/static/media/wrikeVscodeExtension.4bf59a097f47b8ab5376.md",
     "main.04b87cc4.css.map": "/static/css/main.04b87cc4.css.map",
-    "main.bff19f25.js.map": "/static/js/main.bff19f25.js.map"
+    "main.e0a38199.js.map": "/static/js/main.e0a38199.js.map"
   },
   "entrypoints": [
     "static/css/main.04b87cc4.css",
-    "static/js/main.bff19f25.js"
+    "static/js/main.e0a38199.js"
   ]
 }
