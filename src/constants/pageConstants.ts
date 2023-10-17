@@ -1,7 +1,6 @@
 import Page from "../models/interfaces/page";
 import MarkdownPage from "../pages/markdownPage";
 import HOME_MD_PATH from "./../content/home.md";
-import PERSONAL_PROJECTS_MD_PATH from "./../content/personalProjects.md";
 
 import PROFESSIONAL_PROJECTS from "../content/professionalProjects/_discovery.ts";
 import PERSONAL_PROJECTS from "../content/personalProjects/_discovery.ts";
