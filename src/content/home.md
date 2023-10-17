@@ -16,4 +16,4 @@ I finished Sixth Form in 2019 and joined Silver Lined Solutions in January 2020 
 
 I graduated from being the new Junior Developer after only 6 months, and was given the responsibility of being the lead developer for Greengage who was a client at the time. Eventually becoming a Senior Developer in May 2023.
 
-I speak about the projects I have done whilst at Silver Lined Solutions/Greengage within the [Professional Projects](/professional-projects) page, so feel free to have a look there.
+I speak about the projects I have done whilst at Silver Lined Solutions/Greengage within the [Professional Projects](/#/professional-projects) page, so feel free to have a look there.
