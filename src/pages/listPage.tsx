@@ -125,6 +125,7 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
                             </div>
                         ))
                     }
+                    {/* <hr/> */}
                     {/* <ListItemFilters onFilterChange={() => {}}/> */}
                     {
                         //Item List
