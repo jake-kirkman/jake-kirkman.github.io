@@ -21,7 +21,7 @@ const PAGE_DEFINITIONS: Readonly<Page>[] = [
         Component: ListPage,
         Props: {
             PageTitle: 'Professional Projects',
-            PageDescription: 'Here you\'ll find a collection of various projects I\'ve overseen, planned, designed, developed and maintained. Feel free to utilise the filters below if you\'re looking for a particular skillset',
+            PageDescription: 'Here you\'ll find a collection of various projects I\'ve overseen, planned, designed, developed and maintained. This is by no means a comprehensive list, only the ones that I\'ve had the time to talk about',
             Items: PROFESSIONAL_PROJECTS
         }
     }),
