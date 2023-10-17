@@ -86,6 +86,18 @@ $utilities: map-merge(
                 responsive: true
             )
         ),
+        "height": map-merge(
+            map-get($utilities, "height"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "height"), "values"),
+                    (
+                        fit-content: fit-content
+                    ),
+                ),
+                responsive: true
+            )
+        ),
         "position": map-merge(
             map-get($utilities, "position"),
             (
