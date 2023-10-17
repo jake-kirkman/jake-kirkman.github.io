@@ -134,7 +134,10 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
                                 <React.Fragment>
                                     <hr/>
                                     <div className="w-100 d-flex flex-column gap-1">
-                                        <h2>{pProcessor.ListItem.Label}</h2>
+                                        <div className="w-100 d-flex justify-content-between align-items-md-center flex-md-row flex-column">
+                                            <h2 className="mb-0 text-wrap">{pProcessor.ListItem.Label}</h2>
+                                            <span className="text-secondary text-nowrap">{pProcessor.ListItem.Date}</span>
+                                        </div>
                                         <div className="d-flex flex-wrap gap-1">
                                             {
                                                 pProcessor.ListItem.Tags.map(
