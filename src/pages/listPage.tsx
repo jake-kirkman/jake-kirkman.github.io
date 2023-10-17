@@ -112,9 +112,9 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
                     {
                         // Page Title
                         this.ifNotNull(this.props.PageTitle, () => (
-                            <h1>
+                            <h2>
                                 {this.props.PageTitle}
-                            </h1>
+                            </h2>
                         ))
                     }
                     {
