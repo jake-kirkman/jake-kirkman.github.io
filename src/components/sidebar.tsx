@@ -14,9 +14,9 @@ import JAKE_PICTURE from './../assets/images/jake.jpg';
 
 const BUTTONS: {Label: string, Icon: any, Link: string}[] = [
     {
-        Label: 'checko9@hotmail.co.uk',
+        Label: 'jwkirkman@hotmail.com',
         Icon: ICN_ENVELOPE,
-        Link: 'mailto:checko9@hotmail.co.uk'
+        Link: 'mailto:jwkirkman@hotmail.com'
     },
     {
         Label: 'Github',
