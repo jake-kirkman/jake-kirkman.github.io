@@ -4,6 +4,7 @@ import Tag from '../../models/enums/tag';
 //Markdown Imports
 import TRANSACTION_APPROVALS from './transactionApprovals.md';
 import ONBOARDING_PORTAL from './onboardingPortal.md';
+import INCOME_PROTECTION from './incomeProtection.md';
 import ACTIVITIES_2 from './activities2.md';
 
 const PROFESSIONAL_PROJECTS: ListItem[] = [
@@ -18,6 +19,12 @@ const PROFESSIONAL_PROJECTS: ListItem[] = [
         Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC, Tag.RESTApi, Tag.JSON],
         Date: '2022-12',
         MarkdownDataPath: ONBOARDING_PORTAL
+    },
+    {
+        Label: 'Income Protection',
+        Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC, Tag.RESTApi, Tag.JSON],
+        Date: '2022-06',
+        MarkdownDataPath: INCOME_PROTECTION
     },
     {
         Label: 'Activities 2.0',
