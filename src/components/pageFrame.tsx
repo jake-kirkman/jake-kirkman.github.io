@@ -46,7 +46,7 @@ export default class PageFrame extends React.Component<PageFrameProps, PageFrame
                 <div className="w-100 w-md-auto">
                     <Sidebar/>
                 </div>
-                <div className="w-100 w-md-50 pt-3 px-2 ps-md-5 flex-fill">
+                <div className="w-100 w-md-50 pt-3 px-2 ps-md-5 flex-fill pb-5">
                     <GlobalNavBar/>
                     {this.props.children}
                 </div>
