@@ -1,0 +1,7 @@
+.expandablecontent-preview-screen {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(var(--bs-light-rgb),1));
+}
+
+.expandablecontent-readmore:not(:hover) {
+    background-color: var(--bs-light);
+}
