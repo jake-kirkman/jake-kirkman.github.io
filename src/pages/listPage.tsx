@@ -4,44 +4,16 @@
 
 import React from 'react';
 import PageFrame from '../components/pageFrame';
-import Markdown from 'react-markdown';
-import Spinner from '../components/spinner';
 import ListItem from '../models/interfaces/listItem';
-import { loadMarkdownData } from '../workers/dataWorker';
-import Pill from '../components/pill';
+import ListItemComp from '../components/listItemComp';
 import ListItemFilters from '../components/listItemFilters';
-
-/*=========================================================
-        Classes
-=========================================================*/
-
-class ListItemProcessor {
-
-    Component: ListPage;
-    ListItem: ListItem;
-    LoadedMarkdown?: string;
-
-    constructor(pComp: ListPage, pListItem: ListItem) {
-        this.Component = pComp;
-        this.ListItem = pListItem;
-    }
-
-    load(): Promise<any> {
-        return loadMarkdownData(this.ListItem.MarkdownDataPath).then(
-            (pMarkdownData) => {
-                this.LoadedMarkdown = pMarkdownData;
-            }
-        )
-    }
-
-}
 
 /*=========================================================
         Interfaces
 =========================================================*/
 
 export interface ListPageState {
-    ItemProcessors: ListItemProcessor[];
+
 }
 
 export interface ListPageProps {
@@ -62,40 +34,11 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
 
     constructor(pProps: ListPageProps) {
         super(pProps);
-        this.state = {
-            ItemProcessors: []
-        }
     }
 
     /*=========================================================
             Hooks
     =========================================================*/
-
-    componentDidMount(): void {
-        this.processItems();
-    }
-
-    componentDidUpdate(prevProps: Readonly<ListPageProps>, prevState: Readonly<ListPageState>, snapshot?: any): void {
-        if(prevProps.Items != this.props.Items) {
-            this.processItems();
-        }
-    }
-
-    /*=========================================================
-            Helpers
-    =========================================================*/
-
-    processItems() {
-        this.setState({
-            ItemProcessors: this.props.Items.map(
-                pItem => {
-                    let listItemProcessor = new ListItemProcessor(this, pItem);
-                    listItemProcessor.load().then(() => {this.setState({});}); //Load markdown, then rerender
-                    return listItemProcessor;
-                }
-            )
-        });
-    }
 
     /*=========================================================
             Render
@@ -128,37 +71,11 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
                     {/* <hr/> */}
                     {/* <ListItemFilters onFilterChange={() => {}}/> */}
                     {
-                        //Item List
-                        this.state.ItemProcessors.map(
-                            pProcessor => (
+                        this.props.Items.map(
+                            pItem => (
                                 <React.Fragment>
                                     <hr/>
-                                    <div className="w-100 d-flex flex-column gap-1">
-                                        <div className="w-100 d-flex justify-content-between align-items-md-center flex-md-row flex-column">
-                                            <h2 className="mb-0 text-wrap">{pProcessor.ListItem.Label}</h2>
-                                            <span className="text-secondary text-nowrap">{pProcessor.ListItem.Date}</span>
-                                        </div>
-                                        <div className="d-flex flex-wrap gap-1">
-                                            {
-                                                pProcessor.ListItem.Tags.map(
-                                                    pTag => (
-                                                        <Pill tag={pTag}></Pill>
-                                                    )
-                                                )
-                                            }
-                                        </div>
-                                        <div className="w-100">
-                                            {
-                                                undefined == pProcessor.LoadedMarkdown ? (
-                                                    <div className="w-fit-content py-2 mx-auto">
-                                                        <Spinner assistiveText="Loading Markdown"/>
-                                                    </div>
-                                                ) : (
-                                                    <Markdown>{pProcessor.LoadedMarkdown}</Markdown>
-                                                )
-                                            }
-                                        </div>
-                                    </div>
+                                    <ListItemComp item={pItem}/>
                                 </React.Fragment>
                             )
                         )
