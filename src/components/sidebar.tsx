@@ -6,6 +6,8 @@ import React from 'react';
 import ICN_ENVELOPE from './../assets/icons/icn_envelope.svg';
 import ICN_GITHUB from './../assets/icons/icn_github.svg';
 import ICN_LINKEDIN from './../assets/icons/icn_linkedin.svg';
+import ICN_FILE from './../assets/icons/icn_file.svg';
+import ICN_SALESFORCE from './../assets/icons/icn_salesforce.svg';
 import JAKE_PICTURE from './../assets/images/jake.jpg';
 
 /*=========================================================
@@ -19,6 +21,11 @@ const BUTTONS: {Label: string, Icon: any, Link: string}[] = [
         Link: 'mailto:jwkirkman@hotmail.com'
     },
     {
+        Label: 'CV',
+        Icon: ICN_FILE,
+        Link: '/assets/CV.pdf'
+    },
+    {
         Label: 'Github',
         Icon: ICN_GITHUB,
         Link: 'https://github.com/jake-kirkman'
@@ -27,6 +34,11 @@ const BUTTONS: {Label: string, Icon: any, Link: string}[] = [
         Label: 'LinkedIn',
         Icon: ICN_LINKEDIN,
         Link: 'https://uk.linkedin.com/in/jake-kirkman-8582641a4'
+    },
+    {
+        Label: 'Trailhead',
+        Icon: ICN_SALESFORCE,
+        Link: 'https://www.salesforce.com/trailblazer/checko9'
     }
 ];
 
