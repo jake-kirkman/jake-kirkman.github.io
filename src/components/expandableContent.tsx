@@ -11,7 +11,7 @@ import './expandableContent.css';
         Constants
 =========================================================*/
 
-const DEFAULT_COLLAPSED_HEIGHT = 400;
+const DEFAULT_COLLAPSED_HEIGHT = 200;
 
 /*=========================================================
         Interfaces
