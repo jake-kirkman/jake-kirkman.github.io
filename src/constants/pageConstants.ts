@@ -31,7 +31,7 @@ const PAGE_DEFINITIONS: Readonly<Page>[] = [
         Component: ListPage,
         Props: {
             PageTitle: 'Personal Projects',
-            PageDescription: 'Here you\'ll find a collection of various personal projects I\'ve undertaken',
+            PageDescription: 'Here you\'ll find a collection of various personal projects I\'ve undertaken. This is by no means a comprehensive list, just the stuff I\'ve had the time to write about',
             Items: PERSONAL_PROJECTS
         }
     }),
