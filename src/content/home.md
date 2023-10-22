@@ -6,7 +6,9 @@ My commitment is to develop software that I can be proud of, focusing on usabili
 
 ## What I'm looking for
 
-With nearly four years of professional experience in Salesforce development at Greengage/Silver Lined Solutions, I'm now seeking to further this experience or diversify into other areas I've explored, such as Web Development using React or into Mobile Development using Flutter/React Native, and contribute my expertise to innovative projects
+With nearly four years of professional experience in Salesforce development at Greengage/Silver Lined Solutions, I'm now seeking to further this experience or diversify into other areas I've explored, such as Web Development using React or into Mobile Development using Flutter/React Native, and contribute my expertise to innovative projects.
+
+Feel free to view my CV for my references (Found using the relevant button on the side panel, near the top if you're on mobile).
 
 ## About Me
 
