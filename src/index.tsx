@@ -13,7 +13,7 @@ root.render(
                     {
                         PAGE_DEFINITIONS.map(
                             pPage => (
-                                <Route path={pPage.Path} Component={() => {
+                                <Route key={pPage.Path} path={pPage.Path} Component={() => {
                                     return (
                                         <pPage.Component {...(pPage.Props || {})}/>
                                     )

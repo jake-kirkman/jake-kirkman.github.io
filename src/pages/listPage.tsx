@@ -73,7 +73,7 @@ export default class ListPage extends React.Component<ListPageProps, ListPageSta
                     {
                         this.props.Items.map(
                             pItem => (
-                                <React.Fragment>
+                                <React.Fragment key={pItem.Label}>
                                     <hr/>
                                     <ListItemComp item={pItem}/>
                                 </React.Fragment>
