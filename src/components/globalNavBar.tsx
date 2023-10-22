@@ -65,7 +65,7 @@ class GlobalNavBar extends React.Component<GlobalNavBarProps, GlobalNavBarState>
                 {
                     PAGE_DEFINITIONS.map(
                         pPage => (
-                            <div className="w-100 py-1 ps-1">
+                            <div className="w-100 py-1 ps-1" key={pPage.Path}>
                                 <Link to={pPage.Path} className={this.generateStyleClasses(pPage)}>{pPage.Name}</Link>
                             </div>
                         )
