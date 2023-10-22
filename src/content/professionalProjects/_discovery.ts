@@ -6,6 +6,10 @@ import TRANSACTION_APPROVALS from './transactionApprovals.md';
 import ONBOARDING_PORTAL from './onboardingPortal.md';
 import INCOME_PROTECTION from './incomeProtection.md';
 import ACTIVITIES_2 from './activities2.md';
+import APPRAISALS from './appraisals.md';
+import EXPENSE_MANAGEMENT from './expenseManagement.md';
+import RISK_MANAGEMENT from './riskManagement.md';
+import TICKETS_AND_ACTIONS from './ticketsAndActions.md';
 
 const PROFESSIONAL_PROJECTS: ListItem[] = [
     {
@@ -27,10 +31,34 @@ const PROFESSIONAL_PROJECTS: ListItem[] = [
         MarkdownDataPath: INCOME_PROTECTION
     },
     {
+        Label: 'Tickets and Actions',
+        Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC, Tag.RESTApi, Tag.JSON],
+        Date: '2022-06',
+        MarkdownDataPath: TICKETS_AND_ACTIONS
+    },
+    {
         Label: 'Activities 2.0',
         Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC],
         Date: '2021-11',
         MarkdownDataPath: ACTIVITIES_2
+    },
+    {
+        Label: 'Appraisals',
+        Tags: [Tag.Salesforce, Tag.Apex],
+        Date: '2021-04',
+        MarkdownDataPath: APPRAISALS
+    },
+    // {
+    //     Label: 'Risk Management',
+    //     Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC],
+    //     Date: '2020-12',
+    //     MarkdownDataPath: RISK_MANAGEMENT
+    // },
+    {
+        Label: 'Expense Management',
+        Tags: [Tag.Salesforce, Tag.Apex, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.Visualforce],
+        Date: '2020-07',
+        MarkdownDataPath: EXPENSE_MANAGEMENT
     },
 ];
 export default PROFESSIONAL_PROJECTS;
