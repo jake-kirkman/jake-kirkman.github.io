@@ -85,7 +85,7 @@ export default class ListItemComp extends React.Component<ListItemCompProps, Lis
                     {
                         this.props.item.Tags.map(
                             pTag => (
-                                <Pill tag={pTag}></Pill>
+                                <Pill key={pTag + this.props.item.MarkdownDataPath} tag={pTag}></Pill>
                             )
                         )
                     }
