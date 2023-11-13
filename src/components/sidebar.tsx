@@ -33,7 +33,7 @@ const BUTTONS: {Label: string, Icon: any, Link: string}[] = [
     {
         Label: 'LinkedIn',
         Icon: ICN_LINKEDIN,
-        Link: 'https://uk.linkedin.com/in/jake-kirkman-8582641a4'
+        Link: 'https://uk.linkedin.com/in/jake-kirkman'
     },
     {
         Label: 'Trailhead',
