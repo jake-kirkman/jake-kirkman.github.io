@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5fd02f5b.css",
-    "main.js": "/static/js/main.40eb5601.js",
+    "main.js": "/static/js/main.8f6945e1.js",
     "static/media/jake.jpg": "/static/media/jake.ce32d71729b1b96ec122.jpg",
     "static/media/expenseManagement.md": "/static/media/expenseManagement.1ae99768653d6d542641.md",
     "static/media/home.md": "/static/media/home.2e47a1cd34ce94befb10.md",
@@ -10,6 +10,7 @@
     "static/media/activities2.md": "/static/media/activities2.a8df53bf67b8245243d6.md",
     "static/media/icn_file.svg": "/static/media/icn_file.12c151f15417c57b26c2a8dc2bb43e3b.svg",
     "static/media/transactionApprovals.md": "/static/media/transactionApprovals.3f0a4006067e456a504b.md",
+    "static/media/salesforceCustomLabelGeneratorVSCodeExtension.md": "/static/media/salesforceCustomLabelGeneratorVSCodeExtension.9b4d3bcb448ab4d27809.md",
     "static/media/onboardingPortal.md": "/static/media/onboardingPortal.8802d4a7212f9f1c7f58.md",
     "static/media/wrikeVscodeExtension.md": "/static/media/wrikeVscodeExtension.e44d1c934728cc734333.md",
     "static/media/portfolioSite.md": "/static/media/portfolioSite.de6d08a07574d16c607d.md",
@@ -19,11 +20,12 @@
     "static/media/icn_linkedin.svg": "/static/media/icn_linkedin.283bc81f210aef231f1939129f5f46b9.svg",
     "static/media/icn_salesforce.svg": "/static/media/icn_salesforce.88b492b363697034d5f5f8cc44b38985.svg",
     "index.html": "/index.html",
+    "static/media/icn_vscode.svg": "/static/media/icn_vscode.cc428867e1964cff3ccbd4871eff7734.svg",
     "main.5fd02f5b.css.map": "/static/css/main.5fd02f5b.css.map",
-    "main.40eb5601.js.map": "/static/js/main.40eb5601.js.map"
+    "main.8f6945e1.js.map": "/static/js/main.8f6945e1.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd02f5b.css",
-    "static/js/main.40eb5601.js"
+    "static/js/main.8f6945e1.js"
   ]
 }
