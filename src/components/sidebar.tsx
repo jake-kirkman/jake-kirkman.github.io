@@ -8,6 +8,7 @@ import ICN_GITHUB from './../assets/icons/icn_github.svg';
 import ICN_LINKEDIN from './../assets/icons/icn_linkedin.svg';
 import ICN_FILE from './../assets/icons/icn_file.svg';
 import ICN_SALESFORCE from './../assets/icons/icn_salesforce.svg';
+import ICN_VSCODE from './../assets/icons/icn_vscode.svg';
 import JAKE_PICTURE from './../assets/images/jake.jpg';
 
 /*=========================================================
@@ -39,6 +40,11 @@ const BUTTONS: {Label: string, Icon: any, Link: string}[] = [
         Label: 'Trailhead',
         Icon: ICN_SALESFORCE,
         Link: 'https://www.salesforce.com/trailblazer/checko9'
+    },
+    {
+        Label: 'VSCode Extensions',
+        Icon: ICN_VSCODE,
+        Link: 'https://marketplace.visualstudio.com/publishers/JakeKirkman'
     }
 ];
 
