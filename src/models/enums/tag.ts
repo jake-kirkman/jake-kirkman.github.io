@@ -1,8 +1,11 @@
 enum Tag {
     React       = 'React',
+    ReactNative = 'React Native',
+    Expo        = 'Expo',
     Javascript  = 'Javascript',
     Typescript  = 'Typescript',
     Apex        = 'Apex',
+    Flow        = 'Flow',
     Salesforce  = 'Salesforce',
     CSS         = 'CSS',
     HTML        = 'HTML',
@@ -16,6 +19,7 @@ enum Tag {
     RESTApi     = 'REST APIs',
     Agile       = 'Agile',
     XML         = 'XML',
-    JSON        = 'JSON'
+    JSON        = 'JSON',
+    SQLite         = 'SQLite'
 }
 export default Tag;
