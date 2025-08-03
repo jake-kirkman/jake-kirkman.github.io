@@ -10,8 +10,15 @@ import APPRAISALS from './appraisals.md';
 import EXPENSE_MANAGEMENT from './expenseManagement.md';
 import RISK_MANAGEMENT from './riskManagement.md';
 import TICKETS_AND_ACTIONS from './ticketsAndActions.md';
+import QUOTE_BUILDER from './quoteBuilder.md';
 
 const PROFESSIONAL_PROJECTS: ListItem[] = [
+    {
+        Label: 'Quote Builder',
+        Tags: [Tag.Salesforce, Tag.Apex, Tag.Flow, Tag.HTML, Tag.CSS, Tag.Javascript, Tag.LWC, Tag.RESTApi, Tag.JSON],
+        Date: '2024-11',
+        MarkdownDataPath: QUOTE_BUILDER
+    },
     {
         Label: 'Transaction Approval System',
         Tags: [Tag.React, Tag.CSS, Tag.HTML, Tag.Typescript],

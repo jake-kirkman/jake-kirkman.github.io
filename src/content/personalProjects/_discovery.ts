@@ -8,6 +8,7 @@ import APEX_NOTEBOOK_VSCODE_EXTENSION from './apexNotebooksVSCodeExtension.md';
 import WRIKE_VSCODE_EXTENSION from './wrikeVscodeExtension.md';
 import FLOW_VIS_VSCODE_EXTENSION from './salesforceFlowVisualiserVSCodeExtension.md';
 import SF_FORMULA_AST_PARSER from './salesforceFormulaCompiler.md';
+import FOOD_IN_CUPBOARD_APP from './foodInCupboardApp.md';
 
 const PERSONAL_PROJECTS: ListItem[] = [
     {
@@ -15,6 +16,12 @@ const PERSONAL_PROJECTS: ListItem[] = [
         Tags: [Tag.Typescript],
         Date: '2024-09',
         MarkdownDataPath: SF_FORMULA_AST_PARSER
+    },
+    {
+        Label: 'Food In Cupboard App',
+        Tags: [Tag.Typescript, Tag.ReactNative, Tag.Expo, Tag.SQLite],
+        Date: '2024-08',
+        MarkdownDataPath: FOOD_IN_CUPBOARD_APP
     },
     {
         Label: 'Salesforce Flow Visualiser VSCode Extension',
