@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5fd02f5b.css",
-    "main.js": "/static/js/main.d288b536.js",
+    "main.js": "/static/js/main.2f455e1f.js",
     "static/media/jake.jpg": "/static/media/jake.ce32d71729b1b96ec122.jpg",
+    "static/media/quoteBuilder.md": "/static/media/quoteBuilder.d93aea2bb7b6a03024be.md",
     "static/media/expenseManagement.md": "/static/media/expenseManagement.1ae99768653d6d542641.md",
-    "static/media/home.md": "/static/media/home.2e47a1cd34ce94befb10.md",
+    "static/media/home.md": "/static/media/home.72cd80bbe79e69b1d28e.md",
+    "static/media/foodInCupboardApp.md": "/static/media/foodInCupboardApp.9455c9a7219f4a0b5637.md",
     "static/media/appraisals.md": "/static/media/appraisals.cd44fc2d885f9b7befb5.md",
     "static/media/salesforceFlowVisualiserVSCodeExtension.md": "/static/media/salesforceFlowVisualiserVSCodeExtension.2c5e9a86f30fc7fac084.md",
     "static/media/salesforceFormulaCompiler.md": "/static/media/salesforceFormulaCompiler.afb91e1c91cc8141e0e9.md",
@@ -25,10 +27,10 @@
     "index.html": "/index.html",
     "static/media/icn_vscode.svg": "/static/media/icn_vscode.cc428867e1964cff3ccbd4871eff7734.svg",
     "main.5fd02f5b.css.map": "/static/css/main.5fd02f5b.css.map",
-    "main.d288b536.js.map": "/static/js/main.d288b536.js.map"
+    "main.2f455e1f.js.map": "/static/js/main.2f455e1f.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd02f5b.css",
-    "static/js/main.d288b536.js"
+    "static/js/main.2f455e1f.js"
   ]
 }
